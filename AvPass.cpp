@@ -3,7 +3,7 @@
 #include<Windows.h>
 #include<WinBase.h>
 #include<stdlib.h>
-
+#pragma comment(linker,"/subsystem:\"windows\" /entry:\"mainCRTStartup\"")
 using namespace std;
 
 typedef BOOL(WINAPI* EnumInfo)(
